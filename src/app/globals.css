@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@700&display=swap');
+html {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    z-index: 1;
+    user-select: none;
+}
+*{
+    transition: all 0.2s linear;
+}
+body {
+    background-color: #151b1e;
+}
+p {
+    line-height: 1.05;
+}
+
+@media (min-width: 1500px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        overflow-x: hidden;
+        position: relative;
+        z-index: 2;
+    }
+    body::before,
+    body::after {
+        content: '';
+        position: fixed;
+        width: 20rem;
+        height: 20rem;
+        background-color: #FF0000;
+        border-radius: 50%;
+        z-index: -1;
+    }
+    body::before {
+        top: 10rem;
+        left: 5rem;
+    }
+
+    body::after {
+        width: 15rem;
+        height: 15rem;
+        top: 30rem;
+        right: 5rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        overflow-x: hidden;
+        position: relative;
+        z-index: 2;
+    }
+    body::before,
+    body::after {
+        content: '';
+        position: fixed;
+        width: 20rem;
+        height: 20rem;
+        background-color: #FF0000;
+        border-radius: 50%;
+        z-index: -1;
+    }
+    body::before {
+        top: 10vh;
+        left: 5vw;
+    }
+
+    body::after {
+        width: 8rem;
+        height: 8rem;
+        top: 80vh;
+        right: 5vw;
+    }
+}

@@ -1,0 +1,363 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@700&display=swap');
+html {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    z-index: 1;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+}
+*{
+    transition: all 0.2s linear;
+}
+body {
+    background-color: #151b1e;
+}
+p {
+    line-height: 1.05;
+}
+
+@media (min-width: 1500px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        overflow-x: hidden;
+        position: relative;
+        z-index: 2;
+    }
+    body::before,
+    body::after {
+        content: '';
+        position: fixed;
+        width: 20rem;
+        height: 20rem;
+        background-color: #FF0000;
+        border-radius: 50%;
+        z-index: -1;
+    }
+    body::before {
+        top: 10rem;
+        left: 5rem;
+    }
+
+    body::after {
+        width: 15rem;
+        height: 15rem;
+        top: 30rem;
+        right: 5rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        overflow-x: hidden;
+        position: relative;
+        z-index: 2;
+    }
+    body::before,
+    body::after {
+        content: '';
+        position: fixed;
+        width: 20rem;
+        height: 20rem;
+        background-color: #FF0000;
+        border-radius: 50%;
+        z-index: -1;
+    }
+    body::before {
+        top: 10vh;
+        left: 5vw;
+    }
+
+    body::after {
+        width: 8rem;
+        height: 8rem;
+        top: 80vh;
+        right: 5vw;
+    }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/reset.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+  height:100%;width:100%;
+  font-size:100%;line-height:1;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+a{color:inherit;}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/layout.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.layout_mainContainer__cSgHg{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: rgba(27, 27, 27, 0.2);
+    -webkit-backdrop-filter: blur(418.9px);
+            backdrop-filter: blur(418.9px);
+
+
+}
+.layout_containerNav__Dm35i{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 1rem 2rem;
+    @media(max-width: 400px) {
+        padding: 1rem;
+    }
+    .layout_logo__RqH9D{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        text-transform: uppercase;
+        @media(max-width: 400px) {
+            gap: 0.5rem;
+        }
+    }
+    .layout_logoText__z994M{
+        font-family: 'K2D', sans-serif;
+        font-size: 1.6rem;
+        padding-left: 1rem;
+    }
+}
+.layout_childContainer__vb1Ms{
+
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/NavBar/NavBar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.NavBar_burger__CrshI{
+    display: none;
+    overflow: visible;
+    @media (max-width: 650px) {
+        width: 1.5rem;
+    }
+
+    .NavBar_burgerItem__JzfvV{
+        width: 100%;
+        height: 0.1rem;
+        background-color: white;
+        display: none;
+    }
+
+    @media(max-width: 650px) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        justify-content: space-between;
+        height: 100%;
+        
+        
+        .NavBar_burgerItem__JzfvV{
+            display: block;
+        }
+
+    }
+}
+
+.NavBar_nav__d77WF{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 0 2rem;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    @media(max-width: 1500px) {
+        gap: 0 1.5rem;
+    }
+    @media(max-width: 800px) {
+        gap: 0 1rem;
+    }
+    @media(max-width: 650px) {
+        display: none;
+        z-index: -1;
+        
+    }
+    
+    
+    .NavBar_navItem__3N0LI{
+        margin: 0;
+        display: inline-block;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #ffffff;
+        transition: all 0.2s linear;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        &:hover{
+            color: #4fbefd;
+            transform: translateY(0.18rem);
+        }
+        @media(max-width: 1500px) {
+            font-size: 1.1rem;
+        }
+        @media(max-width: 1200px) {
+            font-size: 1rem;
+        }
+        @media(max-width: 800px) {
+            font-size: 0.9rem;
+        }
+    }
+
+    .NavBar_navLine__3Mto7{
+        width: 0.1rem;
+        background-color: white;
+        height: 1.4rem;
+        border: 0.1rem solid white;
+    }
+    
+    
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/Footer/Footer.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+@media (min-width: 600px) {
+
+.Footer_mainContainer__79yJ7{
+    padding: 10vh 10vw 5vh;
+    display: flex;
+    justify-content: space-between;
+    .Footer_leftComponent__wfSWf{
+        display: flex;
+        align-self: end;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5vw;
+        -webkit-user-select: text;
+           -moz-user-select: text;
+                user-select: text;
+        width: 10vw;
+        .Footer_headText__zm9Le{
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+    }
+    .Footer_middleComponent__w6aeA{
+        display: flex;
+        flex-direction: column;
+        align-self: end;
+        justify-content: center;
+        align-items: center;
+        .Footer_headText__zm9Le{
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.2rem;
+            font-family: "K2D", sans-serif;
+        }
+    }
+    .Footer_rightComponent__hb7o6{
+        display: flex;
+        align-self: end;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5vw;
+        width: 10vw;
+        .Footer_headText__zm9Le{
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        .Footer_headIcons__UpfFf{
+            display: flex;
+            gap: 0.5rem;
+        }
+    }
+    .Footer_rightComponent__hb7o6 svg{
+
+    }
+}
+}
+@media (max-width: 600px) {
+    .Footer_mainContainer__79yJ7{
+        padding: 10vw 5vw 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .Footer_leftComponent__wfSWf{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            -webkit-user-select: text;
+               -moz-user-select: text;
+                    user-select: text;
+            gap: 0.5rem;
+            .Footer_headText__zm9Le{
+                font-weight: 300;
+                font-size: 1.2rem;
+            }
+            .Footer_headIcons__UpfFf{
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+        .Footer_leftComponent__wfSWf svg{
+            width: 1.8rem;
+        }
+        .Footer_middleComponent__w6aeA{
+            display: flex;
+            align-self: center;
+            align-items: center;
+            gap: 0.5rem;
+            .Footer_headText__zm9Le{
+                text-align: center;
+                font-weight: 700;
+                font-size: 1.2rem;
+                font-family: "K2D", sans-serif;
+            }
+            .Footer_headIcons__UpfFf{
+
+            }
+        }
+        .Footer_middleComponent__w6aeA svg{
+            width: 2rem;
+            height: 2rem;
+        }
+        .Footer_rightComponent__hb7o6{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .Footer_headText__zm9Le{
+                display: none;
+            }
+            .Footer_headIcons__UpfFf{
+                display: flex;
+                gap: 0.5rem;
+            }
+        }
+        .Footer_rightComponent__hb7o6 svg{
+            width: 1.5rem;
+        }
+    }
+
+}
