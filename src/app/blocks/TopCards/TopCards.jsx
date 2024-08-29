@@ -7,7 +7,7 @@ export default function TopCards() {
     <section className={styles.section}>
         <div className={styles.leftCards}>
                 <div className={styles.leftCard}>
-                    <Image className={styles.leftCardImg} width={40} height={40} src="..../img/Man Technologist.svg" alt="LFImage"/>
+                    <Image className={styles.leftCardImg} width={40} height={40} src="./dist/public/img/Man Technologist.svg" alt="LFImage"/>
                     <h3 className={styles.leftCardTitle}>качественно?</h3>
                     <p className={styles.leftCardText}>Мы стремимся к развитию и качеству во всем, что делаем.</p>
                 </div>
