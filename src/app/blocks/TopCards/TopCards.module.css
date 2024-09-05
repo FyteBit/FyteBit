@@ -124,8 +124,8 @@
                 top: 5rem;
                 right: 6rem;
                 @media (max-width: 1500px) {
-                    top: 6vh;
-                    right: 3vw;
+                    top: 9vh;
+                    left: 3vw;
                 }
             }
         }
