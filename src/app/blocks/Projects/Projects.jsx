@@ -27,14 +27,14 @@ const Projects = () => {
             <div className={styles.mark}>НАШИ ПРОЕКТЫ</div>
             <div className={styles.projectContainer}>
                 <div className={styles.imageContainer}>
-                    <Image className={styles.projectImage} width={1000} height={450} src="./project_img.jpg" alt="PRImage"/>
+                    <Image className={styles.projectImage} width={1000} height={450} src="./img/project_img.jpg" alt="PRImage"/>
                     <div className={styles.imageOverlay}>
                         <div className={styles.overleyHeader}>RaccoonClub</div>
                         <p className={styles.overleyText}>Это не просто телеграм-бот, а полноценное веб-приложение, предназначенное для управления закрытым или открытым клубом.</p>
                     </div>
                 </div>
                 <div className={styles.imageContainer}>
-                    <Image className={styles.projectImage} width={1920} height={1080} src="./Frame 18.jpg" alt="PRImage"/>
+                    <Image className={styles.projectImage} width={1920} height={1080} src="./img/Frame 18.jpg" alt="PRImage"/>
                     <div className={styles.imageOverlay}>
                         <div className={styles.overleyHeader}>FYTEBIT</div>
                         <p className={styles.overleyText}>Не удивительно, что этот сайт мы сделали сами..</p>
