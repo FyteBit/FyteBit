@@ -14,7 +14,7 @@ const FeedBacks = () => {
 
                 <div className={styles.cardFeedback}>
                     <div className={styles.cardInfo}>
-                        <Image className={styles.cardImage} width={80} height={70} src="/img/profile_3.png"
+                        <Image className={styles.cardImage} width={80} height={70} src="./profile_3.png"
                                alt="FBImage"></Image>
                         <div className={styles.cardHead}>
                             <div className={styles.cardAuthor}>Вася</div>
@@ -39,7 +39,7 @@ const FeedBacks = () => {
 
                 <div className={styles.cardFeedback}>
                     <div className={styles.cardInfo}>
-                        <Image className={styles.cardImage} width={80} height={70} src="/img/profile_3.png"
+                        <Image className={styles.cardImage} width={80} height={70} src="./profile_3.png"
                                alt="FBImage"></Image>
                         <div className={styles.cardHead}>
                             <div className={styles.cardAuthor}>Вася</div>
@@ -64,7 +64,7 @@ const FeedBacks = () => {
 
                 <div className={styles.cardFeedback}>
                     <div className={styles.cardInfo}>
-                        <Image className={styles.cardImage} width={80} height={70} src="/img/profile_3.png"
+                        <Image className={styles.cardImage} width={80} height={70} src="./profile_3.png"
                                alt="FBImage"></Image>
                         <div className={styles.cardHead}>
                             <div className={styles.cardAuthor}>Вася</div>
@@ -89,7 +89,7 @@ const FeedBacks = () => {
 
                 <div className={styles.cardFeedback}>
                     <div className={styles.cardInfo}>
-                        <Image className={styles.cardImage} width={80} height={70} src="/img/profile_3.png"
+                        <Image className={styles.cardImage} width={80} height={70} src="./profile_3.png"
                                alt="FBImage"></Image>
                         <div className={styles.cardHead}>
                             <div className={styles.cardAuthor}>Вася</div>
@@ -114,7 +114,7 @@ const FeedBacks = () => {
 
                 <div className={styles.cardFeedback}>
                     <div className={styles.cardInfo}>
-                        <Image className={styles.cardImage} width={80} height={70} src="/img/profile_3.png"
+                        <Image className={styles.cardImage} width={80} height={70} src="./profile_3.png"
                                alt="FBImage"></Image>
                         <div className={styles.cardHead}>
                             <div className={styles.cardAuthor}>Вася</div>
@@ -139,7 +139,7 @@ const FeedBacks = () => {
 
                 <div className={styles.cardFeedback}>
                     <div className={styles.cardInfo}>
-                        <Image className={styles.cardImage} width={80} height={70} src="/img/profile_3.png"
+                        <Image className={styles.cardImage} width={80} height={70} src="./profile_3.png"
                                alt="FBImage"></Image>
                         <div className={styles.cardHead}>
                             <div className={styles.cardAuthor}>Вася</div>
